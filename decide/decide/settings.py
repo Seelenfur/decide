@@ -177,13 +177,9 @@ if os.path.exists("config.jsonnet"):
     config = json.loads(evaluate_file("config.jsonnet"))
     for k, v in config.items():
         vars()[k] = v
-        
-
-INSTALLED_APPS = INSTALLED_APPSS + MODULES
-
-import djando_heroku
-django_heroku.settings(locals())
-
-
+      
 
 INSTALLED_APPS = INSTALLED_APPS + MODULES
+
+import django_heroku
+django_heroku.settings(locals())

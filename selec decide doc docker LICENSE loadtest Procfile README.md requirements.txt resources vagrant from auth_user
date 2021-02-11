@@ -1,0 +1,45 @@
+                           List of relations
+ Schema |               Name                |   Type   |     Owner      
+--------+-----------------------------------+----------+----------------
+ public | auth_group                        | table    | dupondrltyzpdk
+ public | auth_group_id_seq                 | sequence | dupondrltyzpdk
+ public | auth_group_permissions            | table    | dupondrltyzpdk
+ public | auth_group_permissions_id_seq     | sequence | dupondrltyzpdk
+ public | auth_permission                   | table    | dupondrltyzpdk
+ public | auth_permission_id_seq            | sequence | dupondrltyzpdk
+ public | auth_user                         | table    | dupondrltyzpdk
+ public | auth_user_groups                  | table    | dupondrltyzpdk
+ public | auth_user_groups_id_seq           | sequence | dupondrltyzpdk
+ public | auth_user_id_seq                  | sequence | dupondrltyzpdk
+ public | auth_user_user_permissions        | table    | dupondrltyzpdk
+ public | auth_user_user_permissions_id_seq | sequence | dupondrltyzpdk
+ public | authtoken_token                   | table    | dupondrltyzpdk
+ public | base_auth                         | table    | dupondrltyzpdk
+ public | base_auth_id_seq                  | sequence | dupondrltyzpdk
+ public | base_key                          | table    | dupondrltyzpdk
+ public | base_key_id_seq                   | sequence | dupondrltyzpdk
+ public | census_census                     | table    | dupondrltyzpdk
+ public | census_census_id_seq              | sequence | dupondrltyzpdk
+ public | django_admin_log                  | table    | dupondrltyzpdk
+ public | django_admin_log_id_seq           | sequence | dupondrltyzpdk
+ public | django_content_type               | table    | dupondrltyzpdk
+ public | django_content_type_id_seq        | sequence | dupondrltyzpdk
+ public | django_migrations                 | table    | dupondrltyzpdk
+ public | django_migrations_id_seq          | sequence | dupondrltyzpdk
+ public | django_session                    | table    | dupondrltyzpdk
+ public | mixnet_mixnet                     | table    | dupondrltyzpdk
+ public | mixnet_mixnet_auths               | table    | dupondrltyzpdk
+ public | mixnet_mixnet_auths_id_seq        | sequence | dupondrltyzpdk
+ public | mixnet_mixnet_id_seq              | sequence | dupondrltyzpdk
+ public | store_vote                        | table    | dupondrltyzpdk
+ public | store_vote_id_seq                 | sequence | dupondrltyzpdk
+ public | voting_question                   | table    | dupondrltyzpdk
+ public | voting_question_id_seq            | sequence | dupondrltyzpdk
+ public | voting_questionoption             | table    | dupondrltyzpdk
+ public | voting_questionoption_id_seq      | sequence | dupondrltyzpdk
+ public | voting_voting                     | table    | dupondrltyzpdk
+ public | voting_voting_auths               | table    | dupondrltyzpdk
+ public | voting_voting_auths_id_seq        | sequence | dupondrltyzpdk
+ public | voting_voting_id_seq              | sequence | dupondrltyzpdk
+(40 rows)
+

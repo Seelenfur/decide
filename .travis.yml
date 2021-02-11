@@ -16,8 +16,3 @@ install:
 script:
   - cd decide
   - ./manage.py test --keepdb
-deploy:
-  provider: heroku
-  app: egc-app-marmarser
-  strategy: git
-  api_key: $HEROKU_AUTH_TOKEN
